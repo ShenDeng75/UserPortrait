@@ -11,7 +11,7 @@ import works.LocationRpt
  * @author 肖斌武.
  * @datetime 2020/6/16 20:39
  */
-object Operation {
+object OperationRpt {
 	def main(args: Array[String]): Unit = {
 		val conf = new SparkConf().set("spark.serializer", "org.apache.spark.serializer.KryoSerializer")
 		val spark = SparkSession.builder()
